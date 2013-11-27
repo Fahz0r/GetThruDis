@@ -1,0 +1,50 @@
+1a) Update de randomization on the treasures:
+    - Key needs to be in there, every single time, once, in a random chest.
+    - Compass needs to be in there, every single time, once, in a random chest.
+    - Think of several new items to scatter around the chests.
+    - Think of chest traps.
+    - Build all this crap into the game.
+
+1b) Create an interface function for the treasures:
+    - Always the option to OPEN it or LEAVE it be. Opening it of course marks it as viewed on the map
+    but is not mentioned when returning to the same room.
+    - Once opened people need to see what happens or what you've picked up, so add a CONTINUE button
+    so that people can continue the game.
+
+1c) Create a "pause" function that I can use to disable all the controls and add a CONTINUE button at
+    the end of whatever is in de text box.
+
+2a) Update the weaponry randomization:
+    - Add small armor, medium armor, big armor to the globalWeapons array.
+    - Make randomize script for scattering these around.
+
+2b) Create an interface function for the weapons:
+    - This can be just a CONTINUE button so people can at least see what they've picked up.
+
+3) Create the traps and make the randomization for it:
+    - Create three small traps, disarm not possible.
+    - Create three large traps, disarm not possible.
+    - Create several special traps that require simple puzzle solving, and disarming them.
+    - Create chav troll trap.
+
+4) Add in the exit door at a random location somewhere around the sides.
+    - CAN NOT BE A SOUTH WALL (because you can't see it).
+    - Create randomization for the map generator to do this.
+
+5) Update map generator with cue points:
+    - Draw different dress-ups of rooms.
+    - Think about whether you want to make separates for the corners
+    - Randomize the cue points
+    - Build in vulgar reference
+
+6) Create a function for showing the rooms, corners and cue points:
+    - If possible make two divs on top of each other so that the rooms are images and not backgrounds.
+    - Figure out if possible to add sliding effects or fading or the likes to underline movement.
+
+7) Add in "bum genie"
+    - Condition: get scroll of monster+, get scroll of numpty, be robbed by chav troll.
+    - Spawn a lamp somewhere when these conditions are met.
+    - Give option to rub it, then the genie will ask you to rub his bum. Then a random outcome:
+        * Outcome 1) Player gets riches and gold. Ends game.
+        * Outcome 2) Damage or even kill the player with a firey fart.
+        * Outcome 3) Nothing happens, game continues.
