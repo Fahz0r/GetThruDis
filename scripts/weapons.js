@@ -76,15 +76,13 @@ function pickUpWeapon(){
     }
     numptyStep = 0; // Set numpty safe to 0
     pause();        // Put game on short pause
-    isGamePlaying = 1;
     checkStats();                   // Update health and armor
 }
 
 function noPickUpWeapon(){
     $('#textBox').empty();
-    $('#textBox').append("You leave it be.");
+    $('#textBox').append("You leave it be." + "<br>");
     pause();        // Put game on short pause
-    isGamePlaying = 1;
 }
 
 function setWeapon(W){
