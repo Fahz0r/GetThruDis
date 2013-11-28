@@ -425,14 +425,14 @@ function doMapGeneration(){
     }
     var rareTreasureDice = Math.floor(Math.random() * 1000);
     //console.log(rareTreasureDice);
-    if(rareTreasureDice < 50){
+    if(rareTreasureDice < 80){
         putRareTreasure(0);
     }
     // Only turn below function on for bug fixing
     //generateMapGraph();
 }
 
-function putRareTreasure(which){
+function putRareTreasure(which){            // Juggle which rare item to spawn in
     var rareTreasure;
     switch (which){
         case 0:

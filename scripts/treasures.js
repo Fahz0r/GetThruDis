@@ -248,7 +248,7 @@ function openChest(){
 
 function leaveChest(){
     $('#textBox').empty();
-    $('#textBox').append("You leave it be.");
+    $('#textBox').append("You leave it be." + "<br>");
     pause();
 }
 
